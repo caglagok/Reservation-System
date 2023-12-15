@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace prolab2
+{
+     public abstract class Person
+    {
+        public string Ad { get; set; }
+        public string Soyad { get; set; }
+
+        public Person(string ad, string soyad)
+        {
+            Ad = ad;
+            Soyad = soyad;
+        }
+
+    }
+}
